@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name rp2040)(type KiCad)(uri C:/Users/sgmustadio/Documents/GitHub/rpi-pico-debugger-shoe/hardware/libraries/2021-05-11_23-45-12/footprints.pretty)(options "")(descr ""))
+  (lib (name ap2112)(type KiCad)(uri C:/Users/sgmustadio/Documents/GitHub/rpi-pico-debugger-shoe/hardware/libraries/2021-05-12_00-19-53/footprints.pretty)(options "")(descr ""))
+  (lib (name mbr120vlsft1g)(type KiCad)(uri C:/Users/sgmustadio/Documents/GitHub/rpi-pico-debugger-shoe/hardware/libraries/2021-05-12_00-49-18/footprints.pretty)(options "")(descr ""))
+  (lib (name "PTS810 SJK 250 SMTR LFS")(type KiCad)(uri C:/Users/sgmustadio/Documents/GitHub/rpi-pico-debugger-shoe/hardware/libraries/2021-05-12_02-12-02/footprints.pretty)(options "")(descr ""))
+  (lib (name USB4105_REVA)(type KiCad)(uri C:/Users/sgmustadio/Documents/GitHub/rpi-pico-debugger-shoe/hardware/libraries/USB4105_REVA)(options "")(descr ""))
+  (lib (name W25Q16JVSSIQ)(type KiCad)(uri C:/Users/sgmustadio/Documents/GitHub/rpi-pico-debugger-shoe/hardware/libraries/W25Q16JVSSIQ)(options "")(descr ""))
+)

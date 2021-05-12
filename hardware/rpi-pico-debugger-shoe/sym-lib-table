@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name 2021-05-11_23-45-12)(type Legacy)(uri C:/Users/sgmustadio/Documents/GitHub/rpi-pico-debugger-shoe/hardware/libraries/2021-05-11_23-45-12/2021-05-11_23-45-12.lib)(options "")(descr ""))
+  (lib (name 2021-05-12_00-19-53)(type Legacy)(uri C:/Users/sgmustadio/Documents/GitHub/rpi-pico-debugger-shoe/hardware/libraries/2021-05-12_00-19-53/2021-05-12_00-19-53.lib)(options "")(descr ""))
+  (lib (name 2021-05-12_00-49-18)(type Legacy)(uri C:/Users/sgmustadio/Documents/GitHub/rpi-pico-debugger-shoe/hardware/libraries/2021-05-12_00-49-18/2021-05-12_00-49-18.lib)(options "")(descr ""))
+  (lib (name 2021-05-12_02-12-02)(type Legacy)(uri C:/Users/sgmustadio/Documents/GitHub/rpi-pico-debugger-shoe/hardware/libraries/2021-05-12_02-12-02/2021-05-12_02-12-02.lib)(options "")(descr ""))
+  (lib (name USB4105_REVA)(type Legacy)(uri C:/Users/sgmustadio/Documents/GitHub/rpi-pico-debugger-shoe/hardware/libraries/USB4105_REVA/USB4105_REVA.lib)(options "")(descr ""))
+  (lib (name W25Q16JVSSIQ)(type Legacy)(uri C:/Users/sgmustadio/Documents/GitHub/rpi-pico-debugger-shoe/hardware/libraries/W25Q16JVSSIQ/W25Q16JVSSIQ.lib)(options "")(descr ""))
+)
