@@ -1583,4 +1583,74 @@ Text Notes 500  3400 0    50   ~ 0
 Microcontroller
 Text Notes 7000 4800 0    50   ~ 0
 QSPI Flash
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 609F6F52
+P 7800 1050
+F 0 "H3" H 7900 1096 50  0000 L CNN
+F 1 "MountingHole" H 7900 1005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 7800 1050 50  0001 C CNN
+F 3 "~" H 7800 1050 50  0001 C CNN
+	1    7800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 609F7AD6
+P 7800 1300
+F 0 "H4" H 7900 1346 50  0000 L CNN
+F 1 "MountingHole" H 7900 1255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 7800 1300 50  0001 C CNN
+F 3 "~" H 7800 1300 50  0001 C CNN
+	1    7800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 609F7D93
+P 7050 1300
+F 0 "H2" H 7150 1346 50  0000 L CNN
+F 1 "MountingHole" H 7150 1255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 7050 1300 50  0001 C CNN
+F 3 "~" H 7050 1300 50  0001 C CNN
+	1    7050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 609F81AF
+P 7050 1050
+F 0 "H1" H 7150 1096 50  0000 L CNN
+F 1 "MountingHole" H 7150 1005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 7050 1050 50  0001 C CNN
+F 3 "~" H 7050 1050 50  0001 C CNN
+	1    7050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 609F8C47
+P 6550 1050
+F 0 "FID1" H 6635 1096 50  0000 L CNN
+F 1 "Fiducial" H 6635 1005 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 6550 1050 50  0001 C CNN
+F 3 "~" H 6550 1050 50  0001 C CNN
+	1    6550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 609F971F
+P 6550 1300
+F 0 "FID2" H 6635 1346 50  0000 L CNN
+F 1 "Fiducial" H 6635 1255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 6550 1300 50  0001 C CNN
+F 3 "~" H 6550 1300 50  0001 C CNN
+	1    6550 1300
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6300 500  6300 1800
+Text Notes 6350 550  0    50   ~ 0
+Mechanical
 $EndSCHEMATC

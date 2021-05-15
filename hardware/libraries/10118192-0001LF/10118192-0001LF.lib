@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 10118192-0001LF
+#
+DEF 10118192-0001LF J 0 40 Y Y 1 L N
+F0 "J" -200 421 50 H V L BNN
+F1 "10118192-0001LF" -200 -501 50 H V L BNN
+F2 "AMPHENOL_10118192-0001LF" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Manufacturer Recommendation" 0 0 50 H I L BNN "STANDARD"
+F5 "Amphenol" 0 0 50 H I L BNN "MANUFACTURER"
+F6 "B" 0 0 50 H I L BNN "PARTREV"
+DRAW
+S -200 -400 200 400 0 0 6 f
+X VUSB 1 -300 300 100 R 40 40 0 0 P 
+X D- 2 -300 200 100 R 40 40 0 0 P 
+X D+ 3 -300 100 100 R 40 40 0 0 P 
+X ID 4 -300 0 100 R 40 40 0 0 P 
+X GND 5 -300 -100 100 R 40 40 0 0 P 
+X SHIELD SH1 -300 -300 100 R 40 40 0 0 P 
+X SHIELD SH2 -300 -300 100 R 40 40 0 0 P 
+X SHIELD SH3 -300 -300 100 R 40 40 0 0 P 
+X SHIELD SH4 -300 -300 100 R 40 40 0 0 P 
+X SHIELD SH5 -300 -300 100 R 40 40 0 0 P 
+X SHIELD SH6 -300 -300 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
