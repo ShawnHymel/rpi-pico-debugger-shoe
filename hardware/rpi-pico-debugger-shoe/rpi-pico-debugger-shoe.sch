@@ -85,7 +85,7 @@ U 1 1 609C5022
 P 1650 1100
 F 0 "J1" H 1878 1146 50  0000 L CNN
 F 1 "10118193-0001LF" H 1878 1055 50  0000 L CNN
-F 2 "10118193-0001LF:FCI_10118193-0001LF" H 1650 1100 50  0001 L BNN
+F 2 "10118193-0001LF:FCI_10118193-0001LF_no-slot" H 1650 1100 50  0001 L BNN
 F 3 "" H 1650 1100 50  0001 L BNN
 F 4 "Single Port 5 Contact Shielded SMT MICRO USB B-Type Receptacle" H 1650 1100 50  0001 L BNN "DESCRIPTION"
 F 5 "10118193-0001LF" H 1650 1100 50  0001 L BNN "MP"
@@ -1226,7 +1226,7 @@ U 1 1 60C275BF
 P 4850 2800
 F 0 "J3" H 4930 2842 50  0000 L CNN
 F 1 "Conn_01x03" H 4930 2751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4850 2800 50  0001 C CNN
+F 2 "custom:PinHeader_1x03_P2.54mm_Vertical_no-silk" H 4850 2800 50  0001 C CNN
 F 3 "~" H 4850 2800 50  0001 C CNN
 	1    4850 2800
 	1    0    0    -1  
@@ -1281,7 +1281,7 @@ U 1 1 60C6B9E4
 P 4850 2150
 F 0 "J2" H 4930 2142 50  0000 L CNN
 F 1 "Conn_01x02" H 4930 2051 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4850 2150 50  0001 C CNN
+F 2 "custom:PinHeader_1x02_P2.54mm_Vertical_no-silk" H 4850 2150 50  0001 C CNN
 F 3 "~" H 4850 2150 50  0001 C CNN
 	1    4850 2150
 	1    0    0    -1  
@@ -1313,7 +1313,7 @@ U 1 1 60C7CA98
 P 9550 2550
 F 0 "J4" H 9500 3600 50  0000 L CNN
 F 1 "Conn_01x18" H 9350 3500 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x18_P2.54mm_Vertical" H 9550 2550 50  0001 C CNN
+F 2 "custom:PinHeader_1x18_P2.54mm_Vertical_no-silk" H 9550 2550 50  0001 C CNN
 F 3 "~" H 9550 2550 50  0001 C CNN
 F 4 "1988-1035-ND" H 9550 2550 50  0001 C CNN "Digi-Key_PN"
 	1    9550 2550
@@ -1325,7 +1325,7 @@ U 1 1 60C7DE5F
 P 9900 2450
 F 0 "J5" H 9818 3567 50  0000 C CNN
 F 1 "Conn_01x20" H 9818 3476 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical" H 9900 2450 50  0001 C CNN
+F 2 "custom:PinHeader_1x20_P2.54mm_Vertical_no-silk" H 9900 2450 50  0001 C CNN
 F 3 "~" H 9900 2450 50  0001 C CNN
 F 4 "1988-1136-ND" H 9900 2450 50  0001 C CNN "Digi-Key_PN"
 	1    9900 2450
@@ -1337,7 +1337,7 @@ U 1 1 60C94E83
 P 10550 1000
 F 0 "J8" H 10500 1250 50  0000 L CNN
 F 1 "Conn_01x02" H 10350 1150 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10550 1000 50  0001 C CNN
+F 2 "custom:PinHeader_1x02_P2.54mm_Vertical_no-silk" H 10550 1000 50  0001 C CNN
 F 3 "~" H 10550 1000 50  0001 C CNN
 F 4 "S7035-ND" H 10550 1000 50  0001 C CNN "Digi-Key_PN"
 	1    10550 1000
@@ -1400,7 +1400,7 @@ U 1 1 60CF1868
 P 10150 4150
 F 0 "J6" H 10230 4192 50  0000 L CNN
 F 1 "Conn_01x03" H 10230 4101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10150 4150 50  0001 C CNN
+F 2 "custom:PinHeader_1x03_P2.54mm_Vertical_no-silk" H 10150 4150 50  0001 C CNN
 F 3 "~" H 10150 4150 50  0001 C CNN
 	1    10150 4150
 	1    0    0    -1  
@@ -1442,7 +1442,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 1750 10200 1750
 Wire Wire Line
-	10200 1750 10200 2750
+	10200 1750 10200 2250
 Wire Wire Line
 	10100 3250 10200 3250
 Connection ~ 10200 3250
@@ -1505,7 +1505,7 @@ U 1 1 60E6B8D6
 P 10150 4500
 F 0 "J7" H 10230 4542 50  0000 L CNN
 F 1 "Conn_01x03" H 10230 4451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10150 4500 50  0001 C CNN
+F 2 "custom:PinHeader_1x03_P2.54mm_Vertical_no-silk" H 10150 4500 50  0001 C CNN
 F 3 "~" H 10150 4500 50  0001 C CNN
 F 4 "S7036-ND" H 10150 4500 50  0001 C CNN "Digi-Key_PN"
 	1    10150 4500
@@ -1586,71 +1586,74 @@ QSPI Flash
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 609F6F52
-P 7800 1050
-F 0 "H3" H 7900 1096 50  0000 L CNN
-F 1 "MountingHole" H 7900 1005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.1mm" H 7800 1050 50  0001 C CNN
-F 3 "~" H 7800 1050 50  0001 C CNN
-	1    7800 1050
+P 11000 6700
+F 0 "H3" H 11100 6746 50  0000 L CNN
+F 1 "MountingHole" H 11100 6655 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 11000 6700 50  0001 C CNN
+F 3 "~" H 11000 6700 50  0001 C CNN
+	1    11000 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 609F7AD6
-P 7800 1300
-F 0 "H4" H 7900 1346 50  0000 L CNN
-F 1 "MountingHole" H 7900 1255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.1mm" H 7800 1300 50  0001 C CNN
-F 3 "~" H 7800 1300 50  0001 C CNN
-	1    7800 1300
+P 11000 6950
+F 0 "H4" H 11100 6996 50  0000 L CNN
+F 1 "MountingHole" H 11100 6905 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 11000 6950 50  0001 C CNN
+F 3 "~" H 11000 6950 50  0001 C CNN
+	1    11000 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 609F7D93
-P 7050 1300
-F 0 "H2" H 7150 1346 50  0000 L CNN
-F 1 "MountingHole" H 7150 1255 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.1mm" H 7050 1300 50  0001 C CNN
-F 3 "~" H 7050 1300 50  0001 C CNN
-	1    7050 1300
+P 10700 6950
+F 0 "H2" H 10800 6996 50  0000 L CNN
+F 1 "MountingHole" H 10800 6905 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 10700 6950 50  0001 C CNN
+F 3 "~" H 10700 6950 50  0001 C CNN
+	1    10700 6950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 609F81AF
-P 7050 1050
-F 0 "H1" H 7150 1096 50  0000 L CNN
-F 1 "MountingHole" H 7150 1005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.1mm" H 7050 1050 50  0001 C CNN
-F 3 "~" H 7050 1050 50  0001 C CNN
-	1    7050 1050
+P 10700 6700
+F 0 "H1" H 10800 6746 50  0000 L CNN
+F 1 "MountingHole" H 10800 6655 50  0001 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 10700 6700 50  0001 C CNN
+F 3 "~" H 10700 6700 50  0001 C CNN
+	1    10700 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 609F8C47
-P 6550 1050
-F 0 "FID1" H 6635 1096 50  0000 L CNN
-F 1 "Fiducial" H 6635 1005 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 6550 1050 50  0001 C CNN
-F 3 "~" H 6550 1050 50  0001 C CNN
-	1    6550 1050
+P 10350 6700
+F 0 "FID1" H 10435 6746 50  0000 L CNN
+F 1 "Fiducial" H 10435 6655 50  0001 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10350 6700 50  0001 C CNN
+F 3 "~" H 10350 6700 50  0001 C CNN
+	1    10350 6700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 609F971F
-P 6550 1300
-F 0 "FID2" H 6635 1346 50  0000 L CNN
-F 1 "Fiducial" H 6635 1255 50  0000 L CNN
-F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 6550 1300 50  0001 C CNN
-F 3 "~" H 6550 1300 50  0001 C CNN
-	1    6550 1300
+P 10350 6950
+F 0 "FID2" H 10435 6996 50  0000 L CNN
+F 1 "Fiducial" H 10435 6905 50  0001 L CNN
+F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 10350 6950 50  0001 C CNN
+F 3 "~" H 10350 6950 50  0001 C CNN
+	1    10350 6950
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	6300 500  6300 1800
-Text Notes 6350 550  0    50   ~ 0
-Mechanical
+Text Notes 10350 2000 0    50   ~ 0
+Cut to provide\nseparate power\nto target Pico
+Wire Wire Line
+	10100 2250 10200 2250
+Connection ~ 10200 2250
+Wire Wire Line
+	10200 2250 10200 2750
 $EndSCHEMATC
