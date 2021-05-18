@@ -1,6 +1,16 @@
-# Raspberry Pi Pico Debugger Shoe
+# RPi Pico Debugger Shoe
 
-TODO: Description and image
+![Rendered example of RPi Pico Debugger Shoe](https://raw.githubusercontent.com/ShawnHymel/rpi-pico-debugger-shoe/master/images/rpi-pico-debugger-shoe-3d.png)
+
+Stackable debugger board for the Raspberry Pi Pico. Solder long headers to this debugger board in order to connect the Pico to it. You will also need to connect jumper wires from the bottom CLK, GND, DIO pins to the target pico.
+
+All design files were created using KiCad v5.1.
+
+Feel free to modify this design for your own applciation. This PCB is intended to be a project for testing the layout of the Raspberry Pi RP2040.
+
+Recommended reading:
+ * [RP2040 Datasheet](https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf)
+ * [Hardware design with RP2040](https://datasheets.raspberrypi.org/rp2040/hardware-design-with-rp2040.pdf)
 
 ## License
 
