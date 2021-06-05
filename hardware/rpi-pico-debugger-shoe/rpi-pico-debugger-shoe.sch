@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Raspberry Pi Pico Debugger Shoe"
 Date "2021-05-12"
-Rev "v01"
+Rev "v02"
 Comp ""
 Comment1 ""
 Comment2 "https://creativecommons.org/licenses/by/4.0/"
